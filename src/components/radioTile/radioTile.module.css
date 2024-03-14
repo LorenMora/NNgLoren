@@ -1,0 +1,65 @@
+.radioTile {
+    border: 2px solid var(--neutral-80);
+    border-radius: 8px;
+    padding: var(--space-xl) var(--space-lg);
+    cursor: pointer;
+    &:hover {
+        border: 2px solid var(--primary-20);
+        & input {
+            border-color: var(--blue-50);
+            &::before{
+                transform: scale(1);
+            }
+        }
+    }
+    &:focus-within {
+        border: 2px solid var(--blue-50);
+    }
+}
+.radioBtnContainer {
+    display: flex;
+    gap: var(--space-sm);
+    align-items: center;
+}
+.radioBtnLabel {
+    color: var(--primary-30);
+    font-size: var(--heading-small);
+    line-height: var(--heading-small-line-height);
+    font-family: 'SansProBold';
+}
+.tileBody {
+    display: flex;  
+    padding-left: var(--space-xl);
+    justify-content: space-between;
+}
+.date {
+    width: 268px;
+    margin-bottom: var(--space-xs);
+    font-size: var(--title-small);
+    line-height: var(--title-line-height);
+    font-family: 'SansProBold';}
+.time {
+    font-size: var(--title-small);
+    line-height: var(--title-line-height);
+}
+.place, .instructor {
+    font-size: var(--body-medium);
+    line-height: var( --body-medium-line-height);
+}
+.place {
+    margin: var(--space-xs) 0 var(--space-md);
+}
+.instructorContainer {
+    display: flex;
+    flex-direction: column;
+    width: 108px;
+}
+.instructor {
+    text-align: center;
+    width: 84px;
+}
+.portrait {
+    border-radius: var(--border-radius-circle);
+    width: 80px;
+    height: 80px;
+}

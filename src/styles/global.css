@@ -1,0 +1,33 @@
+:root {
+    /* COLORS */
+    --neutral-0: #000000;
+    --neutral-100: #FFFFFF;
+    --neutral-80: #CCCCCC;
+    --primary-20: #4D0001;
+    --primary-30: #600C20;
+    --primary-40: #A61518;
+    --primary-60: #ED0000;
+    --blue-50: #0073DD;
+
+    /*FONT SIZE  */
+    --body-medium: 1.125rem;
+    --body-medium-line-height: 1.5rem;
+    --heading-small: 1.25rem;
+    --heading-small-line-height: 1.625rem;
+    --heading-medium: 1.5rem;
+    --heading-medium-line-height: 2rem;
+    --title-small: 1.875rem;
+    --title-large: 2.125rem;
+    --title-line-height: 2.375rem;
+
+    /* SPACING - given more time, change these to em units*/
+    --space-xs:  4px;
+    --space-sm:   8px;
+    --space-md:   16px;
+    --space-lg:   24px;
+    --space-xl:   32px;
+    --space-xxl:   52px;
+
+    --border-radius: 7px;
+    --border-radius-circle: 50%;
+}
